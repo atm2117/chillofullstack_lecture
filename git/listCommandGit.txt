@@ -48,3 +48,12 @@ recuperer les modifications de la branche parentes et placer mes modifications a
 Permet de fusionner les modifications de la feature branche dans la branche principale main.
 
 ## git reset --hard sha#
+-Permet de supprimer un commit
+-Permet de revenir a un commit definit par son identifiant
+-A utiliser avec precaution a l'aide d'un git push --force
+
+## git diff sha#1 sha#2
+-Permet de comparer deux commits
+
+## git clone
+- Permet de recuperer les details d'un repertoire disponible en ligne.
