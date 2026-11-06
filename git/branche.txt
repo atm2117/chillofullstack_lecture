@@ -1,0 +1,16 @@
+Creer une branche
+ Une branche est un repertoire.
+ Sans avoir plusieurs branches, les developpeurs vont se marcher decu.
+ La pratique est de creer une nouvelle branche pour chaque fonctionnalite.
+ La branche principale pourra vivre independament de la branche creer.
+
+ git branch
+ git branch feature/code-html
+ git checkout feature/code-html
+
+
+fatal: The current branch feature/code-html has no upstream branch.
+To push the current branch and set the remote as upstream, use
+    git push --set-upstream origin feature/code-html
+
+Pas d'association entre nos branches.

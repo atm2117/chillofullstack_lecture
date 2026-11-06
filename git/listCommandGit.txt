@@ -22,3 +22,12 @@ Permet de lister les historique de modifications
 
 ## git log --oneline
 Permet de lister les historique de modifications de maniere compacte.
+
+## git branch
+Permet de lister les branches.
+
+## git branch feature/code-html
+Permet de creer une nouvelle branche feature/code-html
+
+git checkout feature/code-html
+Permet de change de branche et utiliser feature/code-html.
