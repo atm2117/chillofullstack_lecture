@@ -13,4 +13,12 @@ fatal: The current branch feature/code-html has no upstream branch.
 To push the current branch and set the remote as upstream, use
     git push --set-upstream origin feature/code-html
 
-Pas d'association entre nos branches.
+Pas d'association entre nos branches, executer la commande recommender au dessus.
+
+enregistrer les modifications dans feature/code-html a l'aide de git add, commit et push.
+
+retourner a la branch main 
+git checkout main
+
+Se deplacer vers une nouvelle branche, si elle n'existe pas creer la.
+git checkout -b feature/code-css
