@@ -38,3 +38,8 @@ Se deplacer vers une nouvelle branche, si elle n'existe pas creer la.
 ## git pull
 Permet de recuperer les changements recent.
 Recuperer les changement du repertoire en ligne au repertoire locale.
+
+## git rebase
+Permet de recuperer les modifications dans la branche mere.
+Les modifications de la branche mere sont placer en dessous des modifications de la branche courantes.
+recuperer les modifications de la branche parentes et placer mes modifications au dessus de celle ci.
