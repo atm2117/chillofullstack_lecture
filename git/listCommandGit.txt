@@ -46,3 +46,5 @@ recuperer les modifications de la branche parentes et placer mes modifications a
 
 ## git merge
 Permet de fusionner les modifications de la feature branche dans la branche principale main.
+
+## git reset --hard sha#
