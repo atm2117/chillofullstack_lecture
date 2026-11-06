@@ -24,3 +24,6 @@ commit: faire un enregistrement en local de notre fichier.
 git clone https://github.com/atm2117/chillofullstack_lecture.git
 
 editeur  (git add)-> staged (espace tampons) (git commit)-> enregistrer en local (git push)-> repertoire distant
+
+Extension vs code:
+ source control

@@ -1,0 +1,24 @@
+##Commandes git
+
+## git init
+Permet d'initialiser un repertoire.
+
+## git add
+Permet d'ajouter un fichier pour des modifidications dans le staging.
+
+## git commit
+Permet d'enregistrer une modifidication en local.
+Le message est important
+
+## git push
+Permet de pousser les modifications en ligne.
+
+## git status
+Permet de lister les modifications a traiter.
+Permet de verifier le statut du repertoire.
+
+## git log
+Permet de lister les historique de modifications
+
+## git log --oneline
+Permet de lister les historique de modifications de maniere compacte.
