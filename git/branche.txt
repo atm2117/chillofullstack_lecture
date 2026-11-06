@@ -22,3 +22,9 @@ git checkout main
 
 Se deplacer vers une nouvelle branche, si elle n'existe pas creer la.
 git checkout -b feature/code-css
+
+Go back to main
+git checkout main
+
+Make sure to get the latest code
+git pull

@@ -29,5 +29,12 @@ Permet de lister les branches.
 ## git branch feature/code-html
 Permet de creer une nouvelle branche feature/code-html
 
-git checkout feature/code-html
+## git checkout feature/code-html
 Permet de change de branche et utiliser feature/code-html.
+
+## git checkout -b feature/code-css
+Se deplacer vers une nouvelle branche, si elle n'existe pas creer la.
+
+## git pull
+Permet de recuperer les changements recent.
+Recuperer les changement du repertoire en ligne au repertoire locale.
