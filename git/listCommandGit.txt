@@ -43,3 +43,6 @@ Recuperer les changement du repertoire en ligne au repertoire locale.
 Permet de recuperer les modifications dans la branche mere.
 Les modifications de la branche mere sont placer en dessous des modifications de la branche courantes.
 recuperer les modifications de la branche parentes et placer mes modifications au dessus de celle ci.
+
+## git merge
+Permet de fusionner les modifications de la feature branche dans la branche principale main.
