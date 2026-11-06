@@ -1,0 +1,60 @@
+Algorithme: Suite d'etapes logique pour obtenir un resultat precis.
+
+~/OneDrive/Documents/chilloTech/fullstack
+
+
+Structure generale d'un algorithme: 
+  Algorithme <<Nom de l'Algorithme>>
+    variables
+      personnes
+      sel
+      oignon
+      oeufs
+    Debut(Actions)
+      Action 1 (Allume la plaque) -> Instruction 1
+      Action 2 (poser la poelle)  -> Instruction 2
+      ...
+      Action n (Servir l'omelette) -> Instruction n
+    Fin (Actions)
+
+    Algorithme Somme
+    Variables
+      num1 (float),
+      num2 entier(int),
+      somme float,
+      personne chaineDeCaractere(string);
+      quotient float;
+      surfaceDunCercle float;
+      rayon float;
+      estUneValeurPaire boolean;
+      PI float =22/7
+    Debut
+      somme = num1 + num2;
+      afficher somme;
+
+      quotient = num1 / num2;
+      afficher quotient;
+
+      surfaceDunCercle = PO * rayon * rayon
+      afficher surfaceDunCercle;
+
+      estUneValeurPaire = (num1)%2 == 0
+      afficher estUneValeurPaire
+    Fin
+
+Permuter 2 entiers
+  num1 int;
+  num2 int;
+  temp int;
+
+  afficher <<Saisir un 1er entier.>>
+  lire num1;
+ 
+  afficher <<Saisir un 2ieme entier.>>
+  lire num2;
+
+  temp = num1;
+  num1 = num2;
+  num2 = temp;
+
+  afficher num1 et num2
