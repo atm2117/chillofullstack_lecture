@@ -1,0 +1,21 @@
+Appeler une fonction qui va permuter les valuer
+
+objet permuter(a, b):
+    temp = a;
+    a = b;
+    b= temp;
+    return {a:a,b:b}
+
+int entierUn;
+int entierDeux;
+
+afficher "Saisir un entier";
+lire entierUn;
+
+afficher "Saisir un second entier";
+lire entierDeux;
+
+object resultat=permuter(entierUn, entierDeux);
+
+afficher ("Apres permutation, entierUn vaut " resultat.a)
+afficher ("Apres permutation, entierDeux vaut " resultat.b)

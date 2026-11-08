@@ -1,0 +1,15 @@
+entier int
+Debut
+    afficher << Combien d'entier afficher? >>
+    lire entier;
+
+    Pour var=1 a entier faire:
+        afficher var;
+    fin pour;
+
+    index=1
+    Tant que index <= entier faire:
+        afficher index;
+        index = index + 1;
+    Fin tant que;
+Fin

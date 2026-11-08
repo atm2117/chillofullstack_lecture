@@ -1,0 +1,23 @@
+Trieller le tableau pour les mettre en ordre de maniere ascendente/croissante.
+
+On va utiliser 2 variables i et j qui vont nous aider a traverser le tableau.
+i va aller de 0 a n-2;
+j va aller de i+1 a n-1;
+
+compare numeros[i] a numeros[j]
+si numeros[i]>numeros[j], inverser les positions.
+
+int i;
+int j;
+int temp;
+
+Pour i de 0 a n-2 faire:
+    positionMinimal=i;
+    Pour j de i+1 a n-1 faire:
+        Si numeros[i]>numeros[j]
+            temp= numeros[i];
+            numeros[i]= numeros[j];
+            numeros[j]= temp;
+        Fin si
+    Fin Pour
+Fin Pour

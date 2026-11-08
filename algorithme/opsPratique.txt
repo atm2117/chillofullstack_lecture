@@ -1,0 +1,30 @@
+Dans un pays les habitants payent l'impots.
+Des qu'une personne atteint 18 ans l'impots
+Les femmes ne payent l'impot qu'a l'age de 20ans.
+Les moins age ne payent pas l'impots.
+
+Nom, Age, Sexe
+
+nom string;
+age int;
+sexe int;
+
+    afficher <<Saisir votre nom>>;
+    lire nom;
+
+    afficher <<Saisir votre age>>;
+    lire age;
+
+    afficher <<Saisir votre sexe (M/F)?>>;
+    lire sexe;
+
+    si (age>=18 et sexe='M') alors:
+        afficher << Bonjour Mr. >> nom <<, vous devez payer l'impot.>>;
+    sinon si (age>=21 et sexe='F') alors:
+        afficher << Bonjour Mme. >> nom <<, vous devez payer l'impot.>>;
+    sinon
+        afficher << Bonjour, vous etes dans le bon, l'impot ne s'applique a vous.>>;
+    fin
+
+        
+

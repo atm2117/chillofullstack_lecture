@@ -1,0 +1,13 @@
+Faire une boucle qui affiche le carrEe de chaque nombre.
+
+entier int
+carrEe int
+Debut
+    afficher <<Saisir un entier>>;
+    lire entier;
+
+    Pour index=1 a entier faire:
+       carrEe = index * index
+       afficher carrEe;
+    fin Pour;
+Fin

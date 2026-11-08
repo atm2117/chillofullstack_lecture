@@ -1,0 +1,31 @@
+Une fonction est une delegation de certaines taches.
+Il ya l'implimentation de la fonction.
+Et l'appel de la fonction.
+L'ordre des parametres d'une fonction est importants.
+
+Ecrire une fonction qui nous permet d'afficher des informations.
+Ecrire une fonction qui va faire la somme.
+
+void affichage(param):
+    afficher(param)
+
+int addition(entierUn, entierDeux):
+    somme = entierUn + entierDeux;
+    return somme;
+
+int premierEntier;
+int secondEntier;
+string operation;
+
+affichage("Saisir une operation");
+lire operation;
+
+affichage("Saisir le premier entier");
+lire premierEntier;
+
+affichage("Saisir second entier");
+lire secondEntier;
+
+int somme= addition(premierEntier, secondEntier);
+string text= "La somme des entiers vaut " somme;
+affichage(text)

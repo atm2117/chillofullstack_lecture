@@ -1,0 +1,32 @@
+Un tableau(array) est un ensemble de donnees de meme type.
+Chaque position d'un tableau est un index.
+L'index debute a 0.
+
+
+Lire et afficher un tableau
+
+int n;
+int[] numeros= new int[n]
+
+afficher("Saisir la taille du tableau");
+lire n;
+
+afficher("Saisir les numeros, un a un");
+
+Pour index de 0 a n-1 faire:
+    lire(numeros[index]);
+Fin Pour;
+
+Pour index de 0 a n-1 faire:
+    afficher(numeros[index]);
+Fin Pour;
+
+//Mettre les valeur du tableau au carrEe
+
+Pour index de 0 a n-1 faire:
+    numeros[index] = numeros[index] * numeros[index];
+Fin Pour;
+
+Pour index de 0 a n-1 faire:
+    afficher(numeros[index]);
+Fin Pour;

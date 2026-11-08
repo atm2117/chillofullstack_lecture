@@ -1,0 +1,53 @@
+int addition(entierUn, entierDeux):
+    int somme = entierUn + entierDeux
+    return somme;
+
+int sub(entierUn, entierDeux):
+    int dif = entierUn - entierDeux
+    return dif;
+
+float div(entierUn, entierDeux):
+    int quotient = entierUn / entierDeux
+    return quotient;
+
+float mul(entierUn, entierDeux):
+    int product = entierUn * entierDeux
+    return product;
+
+operationAEffectuer string;
+premierEntier int;
+secondEntier int;
+resultat float;
+
+Debut
+    afficher << Quelle operation voulez vous effectuer ?>>;
+    afficher <<Pour une addition taper 1>>;
+    afficher <<Pour une soustraction taper 2>>;
+    afficher <<Pour une soustraction taper 3>>;
+    afficher <<Pour une soustraction taper 4>>;
+
+    lire operationAEffectuer;
+
+    afficher <<Saisir un premier entier>>;
+    lire premierEntier
+
+    afficher <<Saisir un second entier>>;
+    lire secondEntier
+
+    si (operationAEffectuer==1) alors
+        resultat =  addition(premierEntier,secondEntier)
+    sinon si (operationAEffectuer==2) alors
+        resultat =  dif(premierEntier,secondEntier)
+    sinon si (operationAEffectuer==3) alors
+        si (secondEntier == 0) alors
+            resultat = 0
+        sinon
+            resultat =  div(premierEntier,secondEntier)
+        fin
+    sinon si (operationAEffectuer==4) alors
+        resultat =  mul(premierEntier,secondEntier)
+    fin
+
+    afficher <<Le resultat vaut >> resultat
+    
+Fin
