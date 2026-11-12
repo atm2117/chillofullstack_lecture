@@ -1,0 +1,33 @@
+Navigateur: Chrome
+IDE: Visual Studio Code (Editeur de texte)
+Html: HyperText Markup language (content and Structure)
+    Language de balise concu pour representer les pages web.
+CSS: Cascading Style Sheets.
+    Language utilisE pour la mise en forme du texte sur les pages web.
+Client - Server: Requette et Reponse.
+Javascript: Make the website dynamic with interactions.
+
+Paragraph: <p></p>
+Bolding: <strong></strong>
+Italic: <em></em>
+span: <span></span>
+    <p>Bonjour</p> 
+    <p>Bienvenue dans cette formation pour <span class="texte-gras">developpeur fullstack.</span></p>
+    <p class="texte-gras texte-majuscule">Fred</p>
+
+Bolding using style:
+    <style>
+        span{
+            font-weight: bold;
+        }
+        .texte-gras {
+           font-weight: bold;
+           color: purple; 
+        }
+        .texte-majuscule {
+            text-transform: uppercase;
+        }
+    </style>
+
+class: Use to identifier a group of element.
+id: unique identifier. Can only be used per page.

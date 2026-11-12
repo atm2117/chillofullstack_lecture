@@ -1,0 +1,4 @@
+Un outil pour analyser notre code.
+Click droit -> inspecter
+html a gauche et css a droite.
+selectionner une section html et le css va apparaitre a droite.
