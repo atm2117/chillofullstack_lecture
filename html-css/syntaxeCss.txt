@@ -1,0 +1,106 @@
+2 etapes:
+    Selection les balise(s): 
+        p, .class, #id
+    Actions: 
+        {
+            instruction: valeur;
+            color: green;
+        }
+
+fichier: /html-css/courses/index.html
+
+Couleur:
+    3 manieres de choisir une couleur:
+        Le nom de la couleur (moins dynamique)
+        rgb: combinaison du rouge, green and blue. Max 255.
+            color: rgb(255,0,0)
+            color: rgb(0,0,0) , black
+            color: rgb(255,255,255), white
+        hexadecimal: #ffffff
+
+    adobe color generator.
+
+Liens:
+    Le lien permet de se deplacer d'une page a une autre.
+    Les liens sont la pour la navigation.
+    contact.html, liste.html, creer.html
+
+Installer les extensions:
+    HTML/CSS/Javascript Snippet
+    Live Server
+
+Deployer le comme un server:
+    Go live en bas a droite de VS Code.
+
+Listes:
+    Liste ordonee:
+        <ol>
+            <li>Madrid</li>
+            <li>Barcelone</li>
+        </ol>
+
+    Liste non-ordonee:
+        <ul>
+            <li>Eat</li>
+            <li>Sleep</li>
+        </ul>
+
+Button:
+    Element cliquables.
+    Le bouttons fait une action (formulaire, telecharger, transmettre).
+    bouttons de type submit et button de type button.
+
+Gestion des Effets:
+    :hover
+        effet quand la souris est au dessus d'un element.
+    transition
+        Used to ease the transition when an event happens.
+    box-shadow
+        Adds shadow
+        box-shadow: h v size color;
+        Utiliser de valeur negative pour faire changer de sens.
+    border-radius
+        To round an element, button.
+
+Creation des blocks:
+    html-css\courses\liste.html
+
+    La balise la plus haut s'appelle "Section". La section contien toute les autres balises.
+    "Navigation" avec le logo suivi du menu.
+    "Aside" section sur le cote de la section principale. Elle contient generalement des boutton comme la recherche et le logout.
+    "Div" in the middle. The main div section can contain many "article".
+    Un "article" peut contenir plusieurs div et bouttons.
+    Le "footer" est la section au bas de la page contenant le reseaux sociaux, contact, copyright et autres.
+
+Definition des bordures:
+    Utiliser les bordures et couleur pour bien style.
+    section {
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+    .wrapper {
+        border: 1px dashed orange;
+    }
+
+Afficher les elements sur une liste:
+    .nav ul li {
+        float: left;
+    }
+    
+Les marges:
+    marge externe: margin
+    marge interne: padding
+    padding: top right bottom left;
+    padding: top/bottom right/left;
+
+Eliminer les margins par defaut:
+    padding and margin will be set 0.
+
+Container:
+    Utiliser pour definir les dimensions d'une div.
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }

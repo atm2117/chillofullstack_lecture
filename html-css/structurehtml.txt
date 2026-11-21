@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+
+fichier associer: action.html
+head: contient les metadata/meta-donnEes. Invisible a l'utilisater.
+body: contient le contenue du site web. Visible a l'utilisater.
+On peut voir le rendu d'une page html sur un navigateur comme chrome.
+
+Tp:
+    Mettre les 3 buttons a la ligne en utilisant css diplay: block.
+    Avoir un button blue, blanc, rouge. Utiliser les classes pour differencier les bouttons.
+    Eliminer les bordures. border: none.
+
+Titres Paragraphes:
+    h1 to h6. Ils sont notEs par listes d'importance.

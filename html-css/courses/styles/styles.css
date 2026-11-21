@@ -1,0 +1,171 @@
+body, html {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titre {
+    font-size: 24px;
+}
+
+#description {
+    font-size: 18px;
+}
+
+.link:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 100;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3s,
+        color 0.3s,
+        all 1s;
+}
+
+section {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.logo {
+    align-content: center;
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+}
+
+
+article {
+    box-shadow: 1px 1px 3px gray;
+    margin:10px 0;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    /* justify-content: flex-start; */
+}
+
+article .date {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+}
+
+article .description {
+    flex: 1; /* takes the space between the date and the buttons */
+}
+
+article .description h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+article .description .text {
+    margin: 7px 0;
+    font-size: 14px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin:0;
+    padding:0;
+}
+
+.nav > ul li > a {
+    display: block;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;  /* centre horizontalement */
+}
+
+.actions {
+    display: flex;
+}
+
+.actions button {
+    flex: 1;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.actions .link {
+    background-color: green;
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid red;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.formulaire {
+    width: 500px;
+    margin:0 auto
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}

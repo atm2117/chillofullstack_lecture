@@ -1,0 +1,7 @@
+Architecture Globale:
+Fichier d'introduction: index.html
+Autres page: suivi.html, contact.html, demande.html, declaration.html
+fichier css: styles.css
+fichier javascript: script.js
+
+Checker le dossier courses.

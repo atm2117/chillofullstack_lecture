@@ -1,0 +1,44 @@
+Steps:
+    Annoter le parent avec "display: flex".
+    Annoter le parent avec "justify-content: space-between" pour occuper les extremitEs.
+    Annoter l'enfant avec flex:1 pour prendre toute l'espace horizontalement.
+    Annoter l'enfant avec "align-content: center" pour centrer verticalement.
+
+Afficher les element a l'interieur header sur la meme ligne
+    .header {
+        display: flex;
+    }
+
+Afficher les elements aux extremitE:
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+Centrer le logo verticalement:
+    .logo {
+        align-content: center;
+        text-decoration: none;
+    }
+
+Aligner les element a l'interieur d'une liste:
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav ul {
+        list-style: none;
+        display: flex;
+        margin:0;
+    }
+
+stretch across the row the way block elements do.
+
+    The default for a flex item is flex: 0 1 auto:
+    flex-grow: 0: it never grows into free space.
+    flex-basis: auto: its width comes from its content.
+
+    To take the remainder of the screen, use flex: 1;
+
+    Add "overflow: hidden" so the children are clipped to the rounded shape

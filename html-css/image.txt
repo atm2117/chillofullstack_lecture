@@ -1,0 +1,9 @@
+Image de meteo
+
+<img alt="image meteo" src="images/meteo.jpeg" height="100" width="100">
+
+alt est utilisE par les screens reader. Il est aussi afficher au cas ou l'image ne s'affiche pas.
+
+unsplash.com
+
+On peut utiliser une image enregister en locale ou une image en ligne.

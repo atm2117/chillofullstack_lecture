@@ -1,0 +1,12 @@
+Le formulaire nous permet de recuperer des informations chez l'utiliseur.
+fichier: contact.html
+
+
+<label for="firstName">Votre prénom</label>
+<input type="text" name="firstName" id="firstName" placeholder="Votre prénom"> 
+    type="text": Nous permet de recuperer du texte.
+    name="firstName": Nom utiliser pour identifier l'input.
+    placeholder: text informatif et temporaire.
+
+    label/libeler: utiliser pour decrire l'information voulue. Utiliser par les screen readers.
+    "for" in the label should have the same value as "id" in input.

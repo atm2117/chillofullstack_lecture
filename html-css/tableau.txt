@@ -1,0 +1,35 @@
+Les tableaux sont plus utilisE dans les emails.
+Les flexbox et grille sont preferEs sur les sites web.
+le table a un defaut par defaut de display table. La taille du tableau.
+Utiliser une classe pour changer la largeur du tableau. width=100%
+Afficher les bordures du tableau, border: 1px solid red;
+border-collapse: collapse; pour eliminer les dedoublements des lignes.
+colspan="2", pour fusionner 2 colonne.
+rowspan="2", pour fusionner les rows.
+
+<table>: main table tag.
+<thead>: head of the table.
+<tbody>: body of the table
+<tr>: table row
+<td>: table division
+<th>: table division dans le head.
+<tfoot>: footer of the table.
+
+<div class="formulaire>
+    <div class="form-group">
+        ....
+    </div>
+</div>
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+flex-direction: column; permet d'afficher les enfants les un en dessous des autres.
+
+center le formulaire et lui donner une largeur de 500px;
+.formulaire {
+    margin:0 auto;
+    width: 500px;
+}

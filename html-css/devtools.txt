@@ -2,3 +2,4 @@ Un outil pour analyser notre code.
 Click droit -> inspecter
 html a gauche et css a droite.
 selectionner une section html et le css va apparaitre a droite.
+Aller dans la section source du devtools pour voir les fichiers disponible.
