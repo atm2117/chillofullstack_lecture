@@ -12,13 +12,52 @@
     </ul>
 
     <h1>Contact</h1>
-    <div class="formulaire">
+    <form class="formulaire">
         <div class="formulaire">
             <div class="form-group">
                 <label for="firstName">Votre prénom</label>
-                <input type="text" name="firstName" id="firstName" placeholder="Votre prénom">
-                <button type="button" class="button">Transmettre</button>
+                <input type="text" name="firstName" id="firstName" placeholder="Votre prénom" class="input">
             </div>
+            <div class="form-group">
+                <label for="lastName">Votre nom</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Votre nom" class="input">
+            </div>
+            <div class="form-group">
+                <label for="civilité">Civilité</label>
+                <div class="radio-group" aria-labelledby="civilité">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Homme</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Femme</label>
+                </div>
+            </div>
+
+            </div>
+            <div class="form-group">
+                <label for="email">Votre email</label>
+                <input type="email" name="email" id="email" placeholder="Votre email" class="input">
+            </div>
+            <div class="form-group">
+                <label for="message">Votre message</label>
+                <textarea rows="5" name="message" id="message" placeholder="Votre message" class="input"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="source">Comment vous nous avez connu?</label>
+                <select name="source" id="source" class="input">
+                    <option value="">Sélectionnez une option</option>
+                    <option value="friend">Par un ami</option>
+                    <option value="social_media">Réseaux sociaux</option>
+                    <option value="advertisement">Annonce publicitaire</option>
+                    <option value="other">Autre</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="information">
+                    <input type="checkbox" name="information" id="information">
+                    Je ne souhaite pas recevoir d'informations, de bons plans et de cadeaux.
+                </label>
+            </div>
+            <button type="button" class="button">Transmettre</button>
         </div>
         
     </div>

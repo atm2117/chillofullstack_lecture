@@ -1,12 +1,99 @@
 Le formulaire nous permet de recuperer des informations chez l'utiliseur.
 fichier: contact.html
 
+Form:
+La balise parent de notre formulaire doit s'appeller forme.
+<form></form>
 
+
+Input type text
 <label for="firstName">Votre prénom</label>
 <input type="text" name="firstName" id="firstName" placeholder="Votre prénom"> 
     type="text": Nous permet de recuperer du texte.
     name="firstName": Nom utiliser pour identifier l'input.
     placeholder: text informatif et temporaire.
 
+Label
     label/libeler: utiliser pour decrire l'information voulue. Utiliser par les screen readers.
     "for" in the label should have the same value as "id" in input.
+
+<div class="formulaire>
+    <div class="form-group">
+        ....
+    </div>
+</div>
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+flex-direction: column; permet d'afficher les enfants les un en dessous des autres.
+
+center le formulaire et lui donner une largeur de 500px;
+.formulaire {
+    margin:0 auto;
+    width: 500px;
+}
+
+Ajouter un ecart entre element du formulaire
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+Input type Email
+<label for="email">Votre email</label>
+<input type="email" name="email" id="email" placeholder="Votre email" class="input">
+    input type="email", utiliser pour recuperer les emails. Il vient avec des validations.
+
+Textarea
+<div class="form-group">
+    <label for="message">Votre message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Votre message" class="input"></textarea>
+</div>
+    textarea est utilisE pour introduire des messages.
+
+Input type radio
+    le name d'un groupe de radio doit etre similaire.
+    On peut selectionner qu'une seule valeur dans un groupe de radio.
+    aria-labelledby="civilité", nous permet de selectionner une section quand on clique sur le label.
+
+    <div class="form-group">
+        <label for="civilité">Civilité</label>
+        <div class="radio-group" aria-labelledby="civilité">
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Homme</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Femme</label>
+        </div>
+    </div>
+
+Select:
+    le select nous permet de selectionner une seule valeur dans une liste parvenant d'un dropdown.
+    la balise select est la balise principale par laquelle nous pouvons recuperer les valeurs.
+    Note: l' attribut "name" nous permet de recuperer la valeur de l'option choisit.
+    les balises options a l'interieur nous permette de choisir nos valeur. 
+    Note: l'attribut "value" est l'attribut le plus important dans la balise option car elle nous permet de choisir l'option selectionner par l'utilisateur.
+    Label: Comment vous nous avez connu?
+    Valeur: Sélectionnez une option, Par un ami, Réseaux sociaux, Annonce publicitaire, Autre.
+
+    <select name="source" id="source" class="input">
+        <option value="">Sélectionnez une option</option>
+        <option value="friend">Par un ami</option>
+        <option value="social_media">Réseaux sociaux</option>
+        <option value="advertisement">Annonce publicitaire</option>
+        <option value="other">Autre</option>
+    </select>
+
+Checkbox:
+    Nous permet de selectionner ou omettre une valeur.
+    Valeur: Je ne souhaite pas recevoir d'informations, de bons plans et de cadeaux.
+
+    <div class="form-group">
+        <label for="information">
+            <input type="checkbox" name="information" id="information">
+            Je ne souhaite pas recevoir d'informations, de bons plans et de cadeaux.
+        </label>
+    </div>
