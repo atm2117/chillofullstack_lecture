@@ -1,0 +1,18 @@
+Positions des elements:
+
+L'ecran est en 2D (x,y). Horizontal et verticale.
+La position par defaut est la "position:relative".
+On peut ajouter un autre axe z pour mieux positionner certains elements. "position:fixed".
+    le fixe permet d'afficher l'element par rapport a l'ecran.
+    La position fixe ne bouge pas quand on scroll sur l'ecran.
+    Les object en position fixe son sur l'axe z et ne bouge pas.
+
+Position absolue.
+    La position absolue position l'element par rapport a son premier parent ayant la "position: relative"
+
+Placer le boutton a droite de notre ecran:
+    .btn-contact {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }

@@ -1,0 +1,14 @@
+Bootstrap:
+
+Bootstrap est une librairie pour du html/css et js.
+https://getbootstrap.com/
+Ajouter le lien du cdn Bootstrap pour ajouter du css.
+Il faudrait lire les documentations pour choisir le bon layout.
+On ajouter les classes Bootstrap a nos elements html pour ameliorer leur rendu.
+
+Style le button en vert avec du padding
+    <button type="button" class="btn-contact btn-solid theme-success">Contactez nous</button>
+
+Styler vos input en ajoutant la class class="form-control",
+
+Consulter les documentations pour d'autres classes.

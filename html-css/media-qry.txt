@@ -1,0 +1,35 @@
+Media Queries:
+
+Utiliser pour s'adapter a la taille de l'ecran.
+Les media queries sont des fonction en meme a detecter la largeur de l'ecran.
+Nous pouvons appliquer nos styles en fonction de cette largeur.
+Google "media screen size Bootstrap" pour vour les tailles des ecrans commun. Aka Breakpoints.
+min-width, max-width.
+
+Dans la fonction media query, noter les elements dont vous vouler changer le css par defaut selon l'ecran.
+Modifier certains css du defaut pour le placer seulement pour des ecrans plus grands.
+Make sure qu'on a le meta name="viewport" present dans notre html.
+
+Ajouter dans notre fichier css.
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    article {
+        flex-direction: column;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

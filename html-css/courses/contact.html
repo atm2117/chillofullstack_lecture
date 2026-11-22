@@ -1,64 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
+  <head>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <!-- <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
     <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="creer.html">Créer une liste de courses</a></li>
-        <li><a href="liste.html">Consulter les listes de courses</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="creer.html">Créer une liste de courses</a></li>
+      <li><a href="liste.html">Consulter les listes de courses</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
 
     <h1>Contact</h1>
     <form class="formulaire">
-        <div class="formulaire">
-            <div class="form-group">
-                <label for="firstName">Votre prénom</label>
-                <input type="text" name="firstName" id="firstName" placeholder="Votre prénom" class="input">
-            </div>
-            <div class="form-group">
-                <label for="lastName">Votre nom</label>
-                <input type="text" name="lastName" id="lastName" placeholder="Votre nom" class="input">
-            </div>
-            <div class="form-group">
-                <label for="civilité">Civilité</label>
-                <div class="radio-group" aria-labelledby="civilité">
-                    <input type="radio" name="gender" id="male" value="male">
-                    <label for="male">Homme</label>
-                    <input type="radio" name="gender" id="female" value="female">
-                    <label for="female">Femme</label>
-                </div>
-            </div>
-
-            </div>
-            <div class="form-group">
-                <label for="email">Votre email</label>
-                <input type="email" name="email" id="email" placeholder="Votre email" class="input">
-            </div>
-            <div class="form-group">
-                <label for="message">Votre message</label>
-                <textarea rows="5" name="message" id="message" placeholder="Votre message" class="input"></textarea>
-            </div>
-            <div class="form-group">
-                <label for="source">Comment vous nous avez connu?</label>
-                <select name="source" id="source" class="input">
-                    <option value="">Sélectionnez une option</option>
-                    <option value="friend">Par un ami</option>
-                    <option value="social_media">Réseaux sociaux</option>
-                    <option value="advertisement">Annonce publicitaire</option>
-                    <option value="other">Autre</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="information">
-                    <input type="checkbox" name="information" id="information">
-                    Je ne souhaite pas recevoir d'informations, de bons plans et de cadeaux.
-                </label>
-            </div>
-            <button type="button" class="button">Transmettre</button>
+      <div class="form-group">
+        <label for="firstName">Votre prénom</label>
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="Votre prénom"
+          class="input form-control"
+        />
+      </div>
+      <div class="form-group form-field">
+        <label for="lastName">Votre nom</label>
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Votre nom"
+          class="input form-control"
+        />
+      </div>
+      <div class="form-group">
+        <label for="civilité">Civilité</label>
+        <div class="radio-group" aria-labelledby="civilité">
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Homme</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Femme</label>
         </div>
-        
-    </div>
-</body>
+      </div>
+      <div class="form-group">
+        <label for="email">Votre email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Votre email"
+          class="input form-control"
+        />
+      </div>
+      <div class="form-group">
+        <label for="message">Votre message</label>
+        <textarea
+          rows="5"
+          name="message"
+          id="message"
+          placeholder="Votre message"
+          class="input form-control"
+        ></textarea>
+      </div>
+      <div class="form-group">
+        <label for="source">Comment vous nous avez connu?</label>
+        <select name="source" id="source" class="input form-control">
+          <option value="">Sélectionnez une option</option>
+          <option value="friend">Par un ami</option>
+          <option value="social_media">Réseaux sociaux</option>
+          <option value="advertisement">Annonce publicitaire</option>
+          <option value="other">Autre</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="information">
+          <input type="checkbox" name="information" id="information" />
+          Je ne souhaite pas recevoir d'informations, de bons plans et de
+          cadeaux.
+        </label>
+      </div>
+      <button type="button" class="button">Transmettre</button>
+    </form>
+    <button type="button" class="btn-contact btn-solid theme-success">
+      Contactez nous
+    </button>
+  </body>
+</html>

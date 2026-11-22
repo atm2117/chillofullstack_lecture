@@ -1,4 +1,5 @@
 body, html {
+    position: relative;
     background-color: white;
     color: black;
     font-size: 14px;
@@ -66,12 +67,6 @@ article {
     /* justify-content: flex-start; */
 }
 
-article .date {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    flex-direction: column;
-}
 
 article .description {
     flex: 1; /* takes the space between the date and the buttons */
@@ -119,7 +114,6 @@ footer {
 }
 
 .container {
-    width: 1000px;
     margin: 0 auto;  /* centre horizontalement */
 }
 
@@ -161,7 +155,10 @@ footer {
 }
 
 .formulaire {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;   /* keep inputs off the screen edges on phones */
     margin:0 auto;
     display: flex;
     flex-direction: column;
@@ -172,3 +169,43 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+.btn-contact {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+@media (max-width: 575.98px) {
+    /* .container {
+        width: 100%;
+    }  */
+    article {
+        flex-direction: column;
+        width: 100%;
+    }
+    .actions {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 767.98px) { 
+    article .date {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 991.98px) { }
+
+
+@media (min-width: 1199.98px) { 
+    .container {
+        width: 1000px;
+    }
+ }
+
+@media (max-width: 1399.98px) {  }
