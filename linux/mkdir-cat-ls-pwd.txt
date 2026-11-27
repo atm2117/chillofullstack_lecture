@@ -1,0 +1,64 @@
+Ouvrir notre terminal (bash/linux)
+
+PWD:
+    Print Working Directory.
+    Imprimer le repertoire dans lequel nous sommes.
+
+commande > fichier.txt
+    Nous permet de placer le resultat d'une commande dans un fichier.
+    Il vide le contenue du fichier avant d'ajouter le resultat.
+    pwd > repertoire.txt
+
+cat repertoire.txt
+    Nous permet de voir le contenue du fichier a travers le terminal.
+
+commande >> fichier.txt
+    Ajouter a le resultat de la commande a la fin du fichier sans effacer son contenu.
+    Append.
+    pwd >> repertoire.txt
+
+clear
+    Nettoyer le terminal (espace de travail).
+
+ls
+    listes les fichiers et dossier dans mon document actuel.
+    ls project
+
+ls -al
+    lister les fichiers et dossier ainsi que les fichiers cachier avec leur proprietes.
+
+cd linux
+    Change Working directory.
+    Permet de nous deplacer de dossier a un autre.
+
+mkdir project
+    Make directory
+    Permet de creer un nouveau dossier.
+    -p permet de crier le dossier si il n'existe pas.
+    mkdir website-naissances
+    mkdir project/database-naissances
+    mkdir -p project/backend-naissances
+
+~
+    repertoire principal de l'utilisateur.
+    Recuperer sa valeur en faisant un pwd.
+    Dans notre cas "/c/Users/arnol"
+
+touch
+    readme est un fichier qui nous permet de connaitre ce que le fichier fait.
+    touch nous permet de creer un fichier sans contenue.
+    touch backend-naissances/README.md
+
+echo
+    Permet d'ecrire du contenue.
+    On peut afficher le contenu sur le terminal ou le rediriger dans un fichier
+    echo "Backend du projet de gestion de naissances"
+    echo "Backend du projet de gestion de naissances" > README.md
+
+cp
+    Permet de copier un fichier d'un dossier a un autre.
+    Copier README.md de database a website.
+    cp database-naissances/README.md website-naissances/
+
+cp --help
+    Nous permet d'avoir la documentation sur la commande cp.

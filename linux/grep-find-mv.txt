@@ -1,0 +1,48 @@
+mv
+    move
+    Permet de deplacer ou renommer un fichier.
+    mv README.md readme.md
+
+rm:
+    remove
+    Permet de supprimer un fichier ou un repertoire.
+    rm repertoire.txt
+    rm project
+    rm -r project
+
+find
+    Trouver tout les fichiers qui se termine par ".md" dans le dossier project
+    find . -name "*.md"
+        . is for currend directory
+    Trouver tout les fichier se terminant par ".md" sur mon ordinateur
+    find / -name "*.md"
+
+Grep
+    Permet de chercher un mot dans les fichiers.
+    Chercher le mot "projet"
+    **/**/* peut importe le repertoire. Ajuster les * selon le reperotoire de la recherche.
+    grep "project" **/**/*.md
+
+Enchainer les commander
+    && nous permet de combiner plusieurs commandes.
+    mkdir test && cd test && touch fichier.txt && echo "test" > fichier.txt && cat fichier.txt
+
+head
+    Permet de recuperer les 5 premieres ligne de l'ecran.
+        head -n 5 fichier.txt
+
+wc 
+    Permet de recuperer le nombre de ligne, mot et lettre.
+    cat fichier.txt | wc
+
+wc -c
+    Permet de recuperer le nombre de lettre/character d'un fichier
+    cat fichier.txt | wc -c
+
+wc -w
+    Permet de recuperer le nombre de mot/word d'un fichier
+    cat fichier.txt | wc -w
+
+wc -l
+    Permet de recuperer le nombre de ligne/linr d'un fichier
+    cat fichier.txt | wc -l
