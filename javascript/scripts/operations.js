@@ -23,3 +23,13 @@ console.log(typeof numbers, numbers);
     Multi-line
     Comments
 */
+
+let resultat;
+let numOne = 20;
+let numTwo = 10;
+
+resultat = numOne + numTwo;
+console.log("Somme: " + resultat);
+
+resultat = numOne * numTwo;
+console.log("Produit: " + resultat);

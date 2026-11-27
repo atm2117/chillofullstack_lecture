@@ -28,3 +28,4 @@ Mot clEs pour creer des variables:
 Formatter:
     Gear at button left -> Setting -> Check format on Save 
     Download "prettier" -> ctrl+ shift + P -> Format Document -> prettier
+    Alt+ mouse click to place the cursor at multiple places.
