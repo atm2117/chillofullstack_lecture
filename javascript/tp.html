@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP sur les operation JS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container bg-warning w-50 m-auto">
+      <h1>Les Operations</h1>
+      <form onsubmit="calcul(event)">
+        <div class="form-group mb-3">
+          <label for="premierNombre">Premier Nombre:</label>
+          <input
+            type="number"
+            name="premierNombre"
+            id="premierNombre"
+            class="form-control rounded-pill"
+          />
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="secondNombre">Second Nombre:</label>
+          <input
+            type="number"
+            name="secondNombre"
+            id="secondNombre"
+            class="form-control rounded-pill"
+          />
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="operation">Choisir l'operation:</label>
+          <select
+            name="operation"
+            id="operation"
+            class="form-control rounded-pill"
+          >
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="divide">/</option>
+            <option value="multiply">*</option>
+            <option value="modulo">%</option>
+          </select>
+        </div>
+        <button
+          type="submit"
+          id="calculer"
+          class="btn-solid theme-primary mt-3 mb-3 w-100 rounded-pill"
+        >
+          Calculer
+        </button>
+      </form>
+      <p id="result"></p>
+    </div>
+
+    <script src="scripts/tp.js"></script>
+  </body>
+</html>

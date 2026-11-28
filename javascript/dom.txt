@@ -1,0 +1,21 @@
+DOM:
+
+Document Object Model.
+The DOM is the tree of html tags.
+Objectif: Manipuler le dom.
+
+// lire une balise h1
+const contentsOfH1Tags = document.getElementsByTagName("h1");
+
+// Afficher le contenu des balises H1
+// getElementsByTagName returns an object
+console.log(contentsOfH1Tags);
+
+//Contenu de la premiere balise h1
+const firstH1 = contentsOfH1Tags[0];
+console.log(firstH1.innerText); 
+
+// lire une balise par id
+const buttonCalculer = document.getElementById("calculer");
+const buttonLabel = buttonCalculer.innerText;
+console.log(buttonLabel);

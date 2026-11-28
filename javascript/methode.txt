@@ -1,0 +1,35 @@
+Methode:
+
+Faire un traitement s'est executer une methode.
+<div>
+    <input type="number" id="firstNumber" />
+    <input type="number" id="secondNumber" />
+    <button type="button" id="calculer" onclick="calculer()">Calculer</button>
+</div>
+<p id="result"></p>
+
+On click du button, appeler la methode calculE.
+
+const buttonCalculer = document.getElementById("calculer");
+const buttonLabel = buttonCalculer.innerText;
+console.log(buttonLabel);
+
+const calculer = () => {
+  let result = document.getElementById("result");
+  let firstNumber = Number(document.getElementById("firstNumber").value);
+  let secondNumber = Number(document.getElementById("secondNumber").value);
+  let sum = firstNumber + secondNumber;
+
+  console.log("La somme: " + sum);
+  result.innerText = result;
+};
+
+TP:
+    Prendre un input avec text "Premier nombre"
+    Prendre un input avec text "Second nombre"
+    Operation (select): values: +, -, /, *, %
+    Button caluler
+    Quand l'utilisateur click sur le boutton, effectuer l'operation choisi.
+
+    fichier: tp.html et tp.js
+    <form onsubmit="calcul(event)">
